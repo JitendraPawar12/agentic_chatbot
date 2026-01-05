@@ -3,7 +3,7 @@ from configparser import ConfigParser
 
 
 class Config:
-    def __init__(self,config_file="./src/langgraphagenticai/UI/uiconfig.ini"):
+    def __init__(self,config_file="./src/langgraphagenticai/UI/uiconfigfile.ini"):
         self.config=ConfigParser()
         self.config.read(config_file)
 
